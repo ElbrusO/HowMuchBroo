@@ -1,0 +1,53 @@
+body {
+	margin: 0 auto;
+	max-width: 600px;
+	margin-top: 50px;
+}
+
+.form {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.block {
+	max-width: 320px;
+	margin-bottom: 25px;
+}
+
+.block input {
+	width: 300px;
+	height: 50px;
+	font-size: 22px;
+	padding-left: 20px;
+}
+
+.block button {
+	width: 50%;
+	height: 40px;
+	font-size: 20px;
+}
+
+p {
+	font-size: 20px;
+}
+
+@media (max-width: 650px) {
+
+	body {
+		margin-left: 20px;
+		margin-top: 24px;
+	}
+
+	.block input {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 348px) {
+
+	.block input {
+		width: 200px;
+		height: 40px;
+	}
+}
